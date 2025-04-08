@@ -1,11 +1,8 @@
 name: run-tests
 run-name: Run phpunit tests of ${{ github.event.pull_request.title }}
 on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+  push:
+
 jobs:
   run:
     runs-on: ${{ matrix.operating-system }}
