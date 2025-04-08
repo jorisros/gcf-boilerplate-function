@@ -5,7 +5,7 @@ I created this project to use as boilerplate and reference to setup new Google F
 - Download this project as zip
 - Change the Names
     - composer.json (name; autoload.psr-4)
-    - modify the ``config/depency_injection.php``
+    - modify the ``config/dependency_injection.php``
 - Create git repository and push to it
 - While I am using symfony components the injection is done manually
 
