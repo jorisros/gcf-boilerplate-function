@@ -1,0 +1,24 @@
+{
+  "name": "jorisros/gcf-boilerplate",
+  "description": "A boilerplate for writing Google Cloud Functions in php",
+  "type": "project",
+  "require": {
+    "php": "^8.3",
+    "google/cloud-functions-framework": "^1.4",
+    "cloudevents/sdk-php": "^1.2",
+    "symfony/dependency-injection": "^7.2",
+    "monolog/monolog": "^3.9",
+    "symfony/dotenv": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "JorisRos\\GoogleCloudFunction\\BoilerPlateWorker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joris Ros",
+      "email": "joris.ros@gmail.com"
+    }
+  ]
+}
